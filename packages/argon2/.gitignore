@@ -1,0 +1,4 @@
+src/option_generated.rs
+src/option_generated.ts
+**/*.js
+**/*.d.ts

@@ -1,0 +1,15 @@
+namespace argon2;
+
+enum Argon2Type : byte { D = 0, I, ID }
+enum Version: byte { Version10 = 0, Version13 }
+
+table Options {
+  associatedData: [ubyte];
+  hashLength: short;
+  parallelism: uint;
+  memoryCost: uint;
+  secret: [ubyte];
+  timeCost: uint;
+  variant: Argon2Type;
+  version: Version;
+}

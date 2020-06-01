@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2016",
+    "composite": true
+  },
+  "include": [
+    "index.ts",
+    "src/option_generated.ts",
+    "src/flatbuffers.ts"
+  ],
+  "references": [
+    { "path": "../helper" }
+  ]
+}

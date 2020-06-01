@@ -1,0 +1,1 @@
+export { flatbuffers } from 'flatbuffers'
